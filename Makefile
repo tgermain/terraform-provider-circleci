@@ -19,4 +19,4 @@ test:
 
 install_plugin_locally: $(TARGET_BINARY)
 	mkdir -p $(TERRAFORM_PLUGIN_DIR)
-	cp ./$(TARGET_BINARY) $(TERRAFORM_PLUGIN_DIR)/
+	cp ./$(TARGET_BINARY) $(TERRAFORM_PLUGIN_DIR)
